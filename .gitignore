@@ -1,0 +1,17 @@
+# Ignore uploaded images
+uploads/images/*
+!uploads/images/.gitkeep
+
+# IDE and OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP
+.php_cs.cache
+
+# Environment files
+.env
+.env.local
